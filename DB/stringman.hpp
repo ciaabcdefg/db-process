@@ -25,6 +25,8 @@ namespace strman {
         return str.substr(start, end);
     }
 
+    // Arafat Hasan
+    // via https://stackoverflow.com/a/46931770
     std::vector<std::string> split(std::string str, std::string delimiter, bool trim_token = true) {
         size_t pos_start = 0, pos_end, delim_len = delimiter.length();
         std::string token;
